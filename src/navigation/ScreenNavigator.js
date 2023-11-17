@@ -33,7 +33,7 @@ const App = () => {
         headerShown: false,
       }}
       >
-        <Tab.Screen name="Home" component={HomeStack} />
+        <Tab.Screen name="HomeScreen" component={HomeStack} />
         <Tab.Screen name="Search" component={SearchScreen} />
         <Tab.Screen name="Account" component={AccountScreen} />
       </Tab.Navigator>
