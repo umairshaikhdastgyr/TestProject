@@ -1,5 +1,6 @@
 import {StyleSheet} from 'react-native' ;
-import { Colors, WP } from '.';
+import { WP } from '../theme/Dimensions';
+import Colors from '../theme/Colors';
 
 const Styless = StyleSheet.create({
   shadow: {
@@ -15,20 +16,20 @@ const Styless = StyleSheet.create({
 
   regular: (size, color) => ({
     fontSize: WP(size ?? 4),
-    color: color ?? Colors.secondary,
+    color: color ?? Colors.black,
     // letterSpacing:WP(0.3)
   }),
 
   semiBold: (size, color) => ({
     fontSize: WP(size),
-    color: color ?? Colors.secondary,
+    color: color ?? Colors.black,
     fontWeight: '500',
     // letterSpacing:WP(0.3)
   }),
 
   bold: (size, color) => ({
     fontSize: WP(size),
-    color: color ?? Colors.secondary,
+    color: color ?? Colors.black,
     fontWeight: '900',
     // letterSpacing:WP(0.3)
   }),

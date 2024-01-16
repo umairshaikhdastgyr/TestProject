@@ -99,6 +99,9 @@ PODS:
     - FBLazyVector (= 0.72.5)
     - RCTRequired (= 0.72.5)
     - React-Core (= 0.72.5)
+  - RCTYouTube (2.0.2):
+    - React
+    - YoutubePlayer-in-WKWebView (~> 0.3.1)
   - React (0.72.5):
     - React-Core (= 0.72.5)
     - React-Core/DevSupport (= 0.72.5)
@@ -377,10 +380,6 @@ PODS:
   - React-jsinspector (0.72.5)
   - React-logger (0.72.5):
     - glog
-  - react-native-background-timer (2.4.1):
-    - React-Core
-  - react-native-otp-verify (1.1.6):
-    - React-Core
   - react-native-safe-area-context (4.7.2):
     - React-Core
   - React-NativeModulesApple (0.72.5):
@@ -495,8 +494,6 @@ PODS:
     - React-perflogger (= 0.72.5)
   - RNCAsyncStorage (1.19.3):
     - React-Core
-  - RNCClipboard (1.5.1):
-    - React-Core
   - RNGestureHandler (2.13.1):
     - React-Core
   - RNScreens (3.25.0):
@@ -508,6 +505,7 @@ PODS:
   - Yoga (1.14.0)
   - YogaKit (1.18.1):
     - Yoga (~> 1.14)
+  - YoutubePlayer-in-WKWebView (0.3.8)
 
 DEPENDENCIES:
   - boost (from `../node_modules/react-native/third-party-podspecs/boost.podspec`)
@@ -542,6 +540,7 @@ DEPENDENCIES:
   - RCT-Folly (from `../node_modules/react-native/third-party-podspecs/RCT-Folly.podspec`)
   - RCTRequired (from `../node_modules/react-native/Libraries/RCTRequired`)
   - RCTTypeSafety (from `../node_modules/react-native/Libraries/TypeSafety`)
+  - RCTYouTube (from `../node_modules/react-native-youtube`)
   - React (from `../node_modules/react-native/`)
   - React-callinvoker (from `../node_modules/react-native/ReactCommon/callinvoker`)
   - React-Codegen (from `build/generated/ios`)
@@ -556,8 +555,6 @@ DEPENDENCIES:
   - React-jsiexecutor (from `../node_modules/react-native/ReactCommon/jsiexecutor`)
   - React-jsinspector (from `../node_modules/react-native/ReactCommon/jsinspector`)
   - React-logger (from `../node_modules/react-native/ReactCommon/logger`)
-  - react-native-background-timer (from `../node_modules/react-native-background-timer`)
-  - react-native-otp-verify (from `../node_modules/react-native-otp-verify`)
   - react-native-safe-area-context (from `../node_modules/react-native-safe-area-context`)
   - React-NativeModulesApple (from `../node_modules/react-native/ReactCommon/react/nativemodule/core/platform/ios`)
   - React-perflogger (from `../node_modules/react-native/ReactCommon/reactperflogger`)
@@ -577,7 +574,6 @@ DEPENDENCIES:
   - React-utils (from `../node_modules/react-native/ReactCommon/react/utils`)
   - ReactCommon/turbomodule/core (from `../node_modules/react-native/ReactCommon`)
   - "RNCAsyncStorage (from `../node_modules/@react-native-async-storage/async-storage`)"
-  - "RNCClipboard (from `../node_modules/@react-native-community/clipboard`)"
   - RNGestureHandler (from `../node_modules/react-native-gesture-handler`)
   - RNScreens (from `../node_modules/react-native-screens`)
   - RNVectorIcons (from `../node_modules/react-native-vector-icons`)
@@ -599,6 +595,7 @@ SPEC REPOS:
     - OpenSSL-Universal
     - SocketRocket
     - YogaKit
+    - YoutubePlayer-in-WKWebView
 
 EXTERNAL SOURCES:
   boost:
@@ -622,6 +619,8 @@ EXTERNAL SOURCES:
     :path: "../node_modules/react-native/Libraries/RCTRequired"
   RCTTypeSafety:
     :path: "../node_modules/react-native/Libraries/TypeSafety"
+  RCTYouTube:
+    :path: "../node_modules/react-native-youtube"
   React:
     :path: "../node_modules/react-native/"
   React-callinvoker:
@@ -646,10 +645,6 @@ EXTERNAL SOURCES:
     :path: "../node_modules/react-native/ReactCommon/jsinspector"
   React-logger:
     :path: "../node_modules/react-native/ReactCommon/logger"
-  react-native-background-timer:
-    :path: "../node_modules/react-native-background-timer"
-  react-native-otp-verify:
-    :path: "../node_modules/react-native-otp-verify"
   react-native-safe-area-context:
     :path: "../node_modules/react-native-safe-area-context"
   React-NativeModulesApple:
@@ -688,8 +683,6 @@ EXTERNAL SOURCES:
     :path: "../node_modules/react-native/ReactCommon"
   RNCAsyncStorage:
     :path: "../node_modules/@react-native-async-storage/async-storage"
-  RNCClipboard:
-    :path: "../node_modules/@react-native-community/clipboard"
   RNGestureHandler:
     :path: "../node_modules/react-native-gesture-handler"
   RNScreens:
@@ -722,6 +715,7 @@ SPEC CHECKSUMS:
   RCT-Folly: 424b8c9a7a0b9ab2886ffe9c3b041ef628fd4fb1
   RCTRequired: df81ab637d35fac9e6eb94611cfd20f0feb05455
   RCTTypeSafety: 4636e4a36c7c2df332bda6d59b19b41c443d4287
+  RCTYouTube: a8bb45705622a6fc9decf64be04128d3658ed411
   React: e0cc5197a804031a6c53fb38483c3485fcb9d6f3
   React-callinvoker: 1a635856fe0c3d8b13fccd4ed7e76283b99b0868
   React-Codegen: 78d61f981cccc68a771a598f71621cb7db14b04c
@@ -734,8 +728,6 @@ SPEC CHECKSUMS:
   React-jsiexecutor: ff70a72027dea5cc7d71cfcc6fad7f599f63987a
   React-jsinspector: aef73cbd43b70675f572214d10fa438c89bf11ba
   React-logger: 2e4aee3e11b3ec4fa6cfd8004610bbb3b8d6cca4
-  react-native-background-timer: 17ea5e06803401a379ebf1f20505b793ac44d0fe
-  react-native-otp-verify: 3dbd8a52ceb8d4dfc775bddd6fc98a453091ed5f
   react-native-safe-area-context: 7aa8e6d9d0f3100a820efb1a98af68aa747f9284
   React-NativeModulesApple: 797bc6078d566eef3fb3f74127e6e1d2e945a15f
   React-perflogger: cd8886513f68e1c135a1e79d20575c6489641597
@@ -755,13 +747,13 @@ SPEC CHECKSUMS:
   React-utils: 7a9918a1ffdd39aba67835d42386f592ea3f8e76
   ReactCommon: 91ece8350ebb3dd2be9cef662abd78b6948233c0
   RNCAsyncStorage: c913ede1fa163a71cea118ed4670bbaaa4b511bb
-  RNCClipboard: 41d8d918092ae8e676f18adada19104fa3e68495
   RNGestureHandler: 38aa38413896620338948fbb5c90579a7b1c3fde
   RNScreens: 85d3880b52d34db7b8eeebe2f1a0e807c05e69fa
   RNVectorIcons: fcc2f6cb32f5735b586e66d14103a74ce6ad61f8
   SocketRocket: f32cd54efbe0f095c4d7594881e52619cfe80b17
   Yoga: 86fed2e4d425ee4c6eab3813ba1791101ee153c6
   YogaKit: f782866e155069a2cca2517aafea43200b01fd5a
+  YoutubePlayer-in-WKWebView: 4fca3b4f6f09940077bfbae7bddb771f2b43aacd
 
 PODFILE CHECKSUM: 96b98830545e002ffac14ab61873f6bdaa76e776
 

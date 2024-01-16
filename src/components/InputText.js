@@ -1,7 +1,9 @@
 import React, { forwardRef, useImperativeHandle, useState } from 'react';
 import { Image, Text, TextInput, TouchableOpacity, View, StyleSheet } from 'react-native';
-import { Colors, Styless, WP } from '../constants';
 import { PButton } from './Pressable';
+import Styless from '../constants/Styless';
+import Colors from '../theme/Colors';
+import { WP } from '../theme/Dimensions';
 
 export const regux = {
   NUMBER: /\D/g,

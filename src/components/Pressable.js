@@ -1,6 +1,8 @@
 import React from 'react';
 import { Image, Text, TouchableOpacity, StyleSheet } from 'react-native';
-import { Colors, Styless, WP } from '../constants';
+import Colors from '../theme/Colors';
+import Styless from '../constants/Styless';
+import { WP } from '../theme/Dimensions';
 
 export const Pressable = ({ onPress, children, style, props }) => {
   return (
