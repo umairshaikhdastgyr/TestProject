@@ -1,0 +1,106 @@
+{
+  "order_status": "return_closed",
+  "id": "121233",
+  "availableCancel": false,
+  "availableReturn": false,
+  "availableClaim": false,
+  "claimRequest": null,
+  "returnRequest": null,
+  "cancelRequest": null,
+  "buyerId": "232112",
+  "buyerInfo": {
+      "email": "Mshmsh980@gmail.com",
+      "firstName": "Muhammad",
+      "lastName": "Saqlain",
+      "name": "Muhammad Saqlain",
+      "phonenumber": "+17015168317",
+      "userId": "LBN3ELE"
+  },
+  "sellerId": "211243",
+  "sellerInfo": {
+      "email": "ajagevivek@gmail.com",
+      "firstName": "VIVEK",
+      "isSupplier": false,
+      "lastName": "AJAGE",
+      "name": "VIVEK AJAGE",
+      "phonenumber": "+17077190993",
+      "userId": "8QLXVRH"
+  },
+  "conversationId": "21232",
+  "createdAt": "2022-02-22T02:08:24.794Z",
+  "shipBy": "2022-02-23T02:08:24.794Z",
+  "shippedAt": "",
+  "deliverBy": "2022-02-25T02:08:24.794Z",
+  "deliverAt": "",
+  "deliveryMethod": {
+      "city": "Brooklyn",
+      "type": "shipindependently",
+      "state": "NY",
+      "country": "us",
+      "zipcode": "11238",
+      "buyerName": "VIVEK AJAGE",
+      "addressline1": "112 Lefferts Pl",
+      "addressline2": ""
+  },
+  "paymentMethod": {
+      "id": "card_1KEC3DEF1z2P5SyyMAmnFvey",
+      "name": "Vivek Ajage",
+      "type": "creditcard",
+      "brand": "Visa",
+      "last4": "1111",
+      "object": "card",
+      "country": "US",
+      "default": false,
+      "funding": "credit",
+      "customer": "cus_KbyFsNd9I970Hz",
+      "exp_year": 2022,
+      "metadata": {
+          "isDefault": "false"
+      },
+      "cvc_check": "pass",
+      "exp_month": 12,
+      "address_zip": "12345",
+      "fingerprint": "ocgqcFCyubtkpFtX",
+      "stripeToken": "card_1KEC3DEF1z2P5SyyMAmnFvey",
+      "address_city": null,
+      "address_line1": null,
+      "address_line2": null,
+      "address_state": null,
+      "dynamic_last4": null,
+      "address_country": null,
+      "address_zip_check": "pass",
+      "address_line1_check": null,
+      "tokenization_method": null
+  },
+  "productInfo": {
+      "id": "C70VM88J55",
+      "image": "https://homitag-staging-catalogs.s3.us-west-2.amazonaws.com/C70VM88J55/images/7c101746da02ffffceaedf35cd0b16a5c8a9eaf6.jpeg",
+      "price": "500.00",
+      "title": "iPhone pro max",
+      "origin": "suppliers",
+      "taxRate": 0,
+      "shippingCost": 5,
+      "ProductImages": [
+          {
+              "id": "3989513d-0742-469c-8ed7-dedae7b61bbc",
+              "order": 1,
+              "urlImage": "https://homitag-staging-catalogs.s3.us-west-2.amazonaws.com/C70VM88J55/images/7c101746da02ffffceaedf35cd0b16a5c8a9eaf6.jpeg"
+          }
+      ]
+  },
+  "stripeChargeFee": "1.80",
+  "quantity": 1,
+  "totalPaid": "50.00",
+  "tax": "0",
+  "shippingValue": "13.03",
+  "sellerShare": "43.20",
+  "calculationValues": {
+      "purchasePrice": "40.00",
+      "processingFee": "1.80",
+      "salesTax": "12.00",
+      "shippingFee": "8.00",
+      "serviceFee": "1.00",
+      "totalEarned": "43.50"
+  },
+  "originalCalculation": {}
+}

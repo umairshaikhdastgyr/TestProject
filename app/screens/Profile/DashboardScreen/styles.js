@@ -1,0 +1,217 @@
+import { StyleSheet, PixelRatio, Dimensions } from "react-native";
+import { Colors, Fonts } from "#themes";
+import { ImageAspectRation } from "#constants";
+
+const { width } = Dimensions.get("window");
+
+export const styles = StyleSheet.create({
+  container: {
+    flex: 1,
+    backgroundColor: Colors.white,
+  },
+  settingIcon: {
+    width: 30,
+    height: 30,
+    resizeMode: "contain",
+  },
+  headerRight: {
+    marginRight: 10,
+  },
+  infoContainer: {
+    alignItems: "center",
+    marginTop: 30,
+    marginHorizontal: 20,
+    shadowColor: "#000000",
+    shadowOffset: {
+      width: 0,
+      height: 2,
+    },
+    shadowRadius: 3,
+    shadowOpacity: 0.1,
+    elevation: 4,
+    backgroundColor: Colors.white,
+    borderRadius: 5,
+  },
+  userImg: {
+    width: 100,
+    height: 100,
+    resizeMode: "cover",
+    borderRadius: 50,
+  },
+  titleText: {
+    ...Fonts.style.h6,
+    color: Colors.black,
+    lineHeight: 22,
+    marginVertical: 5,
+    marginTop: 20,
+    textAlign: "center",
+  },
+  userImgContainer: {
+    width: 100,
+    height: 100,
+    marginBottom: 10,
+    marginTop: -10,
+  },
+  editIcon: {
+    position: "absolute",
+    bottom: 0,
+    right: 0,
+    width: 28,
+    height: 28,
+    resizeMode: "contain",
+  },
+  greyText: {
+    ...Fonts.style.homiBodyTextMedium,
+    color: Colors.inactiveText,
+    lineHeight: 16,
+  },
+  graySmallText: {
+    textDecorationLine: "underline",
+    ...Fonts.style.label,
+    textAlignVertical: "center",
+    marginLeft: 5,
+    color: Colors.inactiveText,
+  },
+  starContainer: {
+    flexDirection: "row",
+    justifyContent: "center",
+    alignItems: "center",
+    marginTop: 5,
+    height: 30,
+  },
+  userProductContainer: {
+    flexDirection: "row",
+    alignSelf: "stretch",
+    justifyContent: "space-between",
+    marginHorizontal: 20,
+    marginVertical: 10,
+    minHeight: 40,
+  },
+  itemContainer: {
+    height: 40,
+    justifyContent: "space-between",
+  },
+  activeBoldText: {
+    fontFamily: Fonts.family.medium,
+    fontSize: Fonts.size.medium,
+    color: Colors.active,
+    lineHeight: 18,
+    textAlign: "center",
+  },
+  separator: {
+    height: 1 / PixelRatio.get(),
+    backgroundColor: Colors.inactiveShape,
+    marginHorizontal: 30,
+    alignSelf: "stretch",
+    marginTop: 15,
+  },
+  verifyStatusContainer: {
+    height: 60,
+    alignItems: "center",
+    justifyContent: "center",
+    flexDirection: "row",
+  },
+  blackText: {
+    color: Colors.black,
+    ...Fonts.style.homiBodyTextMedium,
+  },
+  verifyIcon: {
+    width: 25,
+    height: 25,
+    resizeMode: "contain",
+    marginHorizontal: 5,
+  },
+  activityContainer: {
+    marginTop: 20,
+    marginHorizontal: 16,
+  },
+  listItemView: {
+    shadowOffset: { width: 1, height: 1 },
+    shadowColor: "black",
+    shadowOpacity: 0.2,
+    elevation: 6,
+    zIndex: 1,
+    marginTop: 4,
+  },
+  listItemContainer: {
+    backgroundColor: Colors.white,
+    marginBottom: 16,
+    width: width / 2 - 24,
+    borderRadius: 8,
+    paddingBottom: 8,
+    marginHorizontal: 4,
+    borderRadius: 8,
+    shadowOffset: { width: 1, height: 1 },
+    shadowColor: "black",
+    shadowOpacity: 0.2,
+    elevation: 6,
+    zIndex: 1,
+  },
+  headerButton: {
+    flexDirection: "row",
+    alignItems: "flex-start",
+    justifyContent: "flex-start",
+    position: "absolute",
+    top: 12,
+    left: 11,
+    zIndex: 1,
+    backgroundColor: "transparent",
+  },
+  productImg: {
+    width: "100%",
+    aspectRatio: ImageAspectRation,
+    borderRadius: 8,
+  },
+  productStatusText: {
+    ...Fonts.style.label,
+    color: Colors.active,
+  },
+  productInfoContainer: {
+    height: 36,
+    marginHorizontal: 10,
+    justifyContent: "space-between",
+    marginTop: 10,
+    marginBottom: 5,
+  },
+  noProductViewContainer: {
+    alignSelf: "center",
+    justifyContent: "center",
+    paddingBottom: 30,
+  },
+  userPhotoContainer: {
+    alignSelf: "center",
+    marginTop: 20,
+  },
+  subPhotoContainer: {
+    width: 100,
+    height: 100,
+    borderRadius: 50,
+    backgroundColor: Colors.lightGrey,
+    alignItems: "center",
+    justifyContent: "center",
+  },
+  userPhotoTempImg: {
+    width: 30,
+    height: 30,
+    resizeMode: "contain",
+  },
+  mainButtonStyle: { backgroundColor: Colors.active },
+  userPhotoImg: {
+    width: 100,
+    height: 100,
+    borderRadius: 50,
+    resizeMode: "cover",
+  },
+  addImg: {
+    position: "absolute",
+    right: 0,
+    bottom: 0,
+    width: 30,
+    height: 30,
+    resizeMode: "contain",
+  },
+
+  boostModal: {
+    flex: 1,
+  },
+});

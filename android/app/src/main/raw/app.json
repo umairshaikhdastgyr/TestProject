@@ -1,0 +1,9 @@
+{
+  "name": "homitag",
+  "displayName": "Homitag",
+  "senderID": "654933660611",
+  "apikey" : "06e5067e3969",
+  "secretkey" : "80d96957f7",
+  "socketServer": "https://homitag-messages.herokuapp.com",
+  "cdnResizeServer": "https://ce87a93bc.cloudimg.io/v7/"
+}

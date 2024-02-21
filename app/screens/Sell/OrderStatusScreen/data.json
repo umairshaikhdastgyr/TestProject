@@ -1,0 +1,100 @@
+{ 
+  "order_status": "one of the ORDER_STATUS",
+      "id": "ORDER_ID",
+      "availableCancel": "Check logic and send this true only if user should see Request to return button", 
+
+      "availableReturn": "Check logic and send this true only if user should see Return/Contest Item button", 
+
+      "availableClaim": "Check logic and send this true only if user should see file a claim button", 
+
+      "claimRequest":{ 
+
+          "state": "", 
+
+          "requestDate": ""
+
+      }, 
+
+      "returnRequest":{ 
+
+          "state": "", 
+
+          "requestDate": "", 
+
+          "histories":[
+              {
+                  "historyActivityDate": ""
+                }
+          ]
+      }, 
+
+      "cancelRequest":{ 
+
+          "state": "", 
+
+          "requestDate": ""
+
+           
+
+      }, 
+
+      "buyerId": "", 
+
+      "buyerInfo":{ 
+
+          "email": "Mshmsh980@gmail.com", 
+
+          "firstName": "Muhammad", 
+
+          "lastName": "Saqlain", 
+
+          "name": "Muhammad Saqlain", 
+
+          "phonenumber": "+17015168317", 
+
+          "userId": "LBN3ELE" 
+
+      }, 
+
+      "sellerId": "", 
+
+      "sellerInfo":{ 
+
+          "email": "ajagevivek@gmail.com", 
+
+          "firstName": "VIVEK", 
+
+          "isSupplier": false, 
+
+          "lastName": "AJAGE", 
+
+          "name": "VIVEK AJAGE", 
+
+          "phonenumber": "+17077190993", 
+
+          "userId": "8QLXVRH"
+
+      },
+
+      "conversationId": "", 
+
+      "createdAt": "", 
+
+      "shipBy": "", 
+
+      "shippedAt": "", 
+
+      "deliverBy": "", 
+
+      "deliverAt": "", 
+
+      "deliveryMethod":{
+      }, 
+      "calculationValues":{
+      },
+      "orignalCalculation":{
+      },
+      "paymentMethod": "",
+      "productInfo": "",
+      "quantity": ""
+  }

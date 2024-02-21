@@ -1,0 +1,22 @@
+{
+  "name": "react_native_vindecoderapi",
+  "version": "1.0.7",
+  "description": "react native package for https://vindecoder.eu/api",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "react-native",
+    "vin",
+    "number",
+    "vin",
+    "decoder",
+    "api"
+  ],
+  "author": "Imdad Hussain",
+  "license": "ISC",
+  "dependencies": {
+    "react-native-sha1": "^1.2.3"
+  }
+}

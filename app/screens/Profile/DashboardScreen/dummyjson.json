@@ -1,0 +1,69 @@
+{
+	"postId": "a8a73eea-2e42-4f85-901e-f02e308a7a5b",
+	"PostStatus": {
+		"id": "a0a6d994-e31a-4cd7-a107-7c630e5e1c90",
+		"name": "Draft"
+	},
+	"productInfo": {
+		"ProductImages": [{
+			"id": "195ee341-e760-442f-bdad-0f9360d3a53d",
+			"order": 0,
+			"urlImage": "https://homitag-staging-catalogs.s3.us-west-2.amazonaws.com/N01LU64X54/images/ab75eaa8fb5784b72199afe44782634072b55a7a.jpg"
+		}],
+		"customProperties": {
+			"lastScreen": "3",
+			"origin": "app"
+		},
+		"id": "N01LU64X54",
+		"image": "https://homitag-staging-catalogs.s3.us-west-2.amazonaws.com/N01LU64X54/images/ab75eaa8fb5784b72199afe44782634072b55a7a.jpg",
+		"origin": "app",
+		"price": "50.00",
+		"shippingCost": 0,
+		"taxRate": 0,
+		"title": "Dashboard Item"
+	},
+	"orderInfo": {
+		"orderId": "",
+		"orderStatus": "",
+		"cancelRequest": null,
+		"returnRequest": null,
+		"claimRequest": null
+	},
+  "customProperties": {
+    "lastScreen": "3",
+    "origin": "app"
+  },
+  "allowForReselling": false,
+  "approvedSupplier": false,
+  "archived": null,
+  "availableQuantity": 1,
+  "blockExplanation": null,
+  "boost": null,
+  "chatStatus": "active",
+  "createdAt": "2022-04-11T19:06:17.167Z",
+  "deactivationExplanation": null,
+  "description": "gfgf",
+  "id": "a8a73eea-2e42-4f85-901e-f02e308a7a5b",
+  "inactivatedAt": null,
+  "initialPrice": "20.00",
+  "internalNote": null,
+  "isFashion": false,
+  "isFavorite": false,
+  "isNegotiable": false,
+  "itemConditionId": "e86c9f39-f8a9-481a-b622-5beb4afa6956",
+  "keywords": null,
+  "lastActivatedAt": null,
+  "lastActiveDuration": "0 days",
+  "lowestPrice": false,
+  "order": null,
+  "postStatusId": "a0a6d994-e31a-4cd7-a107-7c630e5e1c90",
+  "productId": "X13RX72Q89",
+  "sellerName": "Ravi Asthana",
+  "shareOnFacebook": false,
+  "sku": "09-54EGCN-24",
+  "statusList": [],
+  "taxExempt": false,
+  "title": "fggf",
+  "updatedAt": "2022-04-11T19:06:17.167Z",
+  "userId": "50f80ac1-3a50-4f36-84ea-3858f458b693"
+}

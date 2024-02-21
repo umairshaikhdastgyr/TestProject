@@ -1,0 +1,153 @@
+import { StyleSheet, PixelRatio } from "react-native";
+import { Colors, Metrics, Fonts } from "#themes";
+
+export const styles = StyleSheet.create({
+  container: {
+    flex: 1,
+    backgroundColor: Colors.white,
+  },
+  contentContainer: {
+    flexDirection: "column",
+    marginVertical: 30,
+    paddingHorizontal: 15,
+  },
+  containerTitle: {
+    ...Fonts.style.shareText,
+    color: Colors.black,
+    marginBottom: 20,
+  },
+  containerItemText: {
+    ...Fonts.style.homiBodyText,
+    color: Colors.black,
+  },
+  footer: {
+    flex: 1,
+    justifyContent: "flex-end",
+  },
+  chatModal: {
+    flex: 1,
+  },
+  modalContentContainer: {
+    width: "100%",
+    alignItems: "center",
+    flexDirection: "row",
+    flexWrap: "wrap",
+  },
+  textCard: {
+    height: 55,
+    padding: 20,
+    alignContent: "center",
+    color: Colors.white,
+    backgroundColor: Colors.primary,
+  },
+  footerRect: {
+    width: "100%",
+    flexDirection: "column",
+    height: "30%",
+    elevation: 6,
+    backgroundColor: "#fff",
+    marginBottom: 0,
+    bottom: 0,
+    position: "absolute",
+  },
+  button: {
+    paddingHorizontal: 16,
+    width: 250,
+    alignSelf: "center",
+    flexDirection: "row",
+    height: 48,
+    borderWidth: 1,
+    borderColor: "#00BDAA",
+    borderRadius: 20,
+    justifyContent: "center",
+    alignItems: "center",
+  },
+  button__text: {
+    ...Fonts.style.buttonText,
+    fontFamily: Fonts.family.semiBold,
+    color: "#313334",
+    fontWeight: "600",
+    fontSize: 13,
+    textAlign: "center",
+  },
+  inputText: {
+    left: 20,
+    fontSize: Fonts.size.large,
+    color: Colors.black,
+    fontFamily: Fonts.family.regular,
+    borderBottomColor: Colors.grey,
+    paddingBottom: 4,
+  },
+  centeredView: {
+    flex: 1,
+    justifyContent: "center",
+    alignItems: "center",
+  },
+  modalView: {
+    margin: 0,
+    width: 277,
+    height: 256,
+    borderRadius: 8,
+    backgroundColor: "#fff",
+    alignItems: "center",
+    shadowColor: "#000",
+    shadowOffset: {
+      width: 0,
+      height: 2,
+    },
+    shadowOpacity: 0.25,
+    shadowRadius: 6.84,
+    elevation: 5,
+  },
+  ViewDetailBtn: {
+    width: 111,
+    height: 37,
+    borderRadius: 10,
+    alignItems: "center",
+    justifyContent: "center",
+    borderColor: "#7471FF",
+    borderWidth: 1.5,
+    marginTop: 2,
+    marginRight: 18,
+  },
+  viewDetailTxt: {
+    fontSize: 12,
+    color: "#7471FF",
+  },
+  viewModal: {
+    flex: 1,
+  },
+  mainView: {
+    width: "100%",
+    alignItems: "center",
+    paddingVertical: 10,
+  },
+  titleView: {
+    width: "94%",
+    marginTop: "5%",
+  },
+  titleTxt: {
+    fontSize: 13,
+    color: "#313334",
+  },
+  itemShowView: {
+    width: "94%",
+    marginTop: 10,
+    borderRadius: 7,
+    justifyContent: "center",
+    backgroundColor: "#FCFCFC",
+    paddingVertical: 14,
+    marginBottom: "2%",
+  },
+  subTitleTxt: {
+    color: "#000000",
+    fontSize: 13,
+    paddingHorizontal: 22,
+  },
+  attachmentRect: {
+    width: "94%",
+    marginTop: 10,
+    marginBottom: "2%",
+    flexDirection: "row",
+  },
+});

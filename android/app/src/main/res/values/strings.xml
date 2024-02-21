@@ -1,3 +1,8 @@
 <resources>
-    <string name="app_name">D-Containers</string>
+    <string name="app_name">Homitag</string>
+    <string name="facebook_app_id">289727299337825</string>
+    <string name="facebook_client_token">6d02d75390488b1e5a902c10fba27120</string>
+    <string name="fb_login_protocol_scheme">fb289727299337825</string>
+    <string name="appCenterCrashes_whenToSendCrashes" moduleConfig="true" translatable="false">DO_NOT_ASK_JAVASCRIPT</string>
+	<string name="appCenterAnalytics_whenToEnableAnalytics" moduleConfig="true" translatable="false">ALWAYS_SEND</string>
 </resources>

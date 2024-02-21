@@ -1,0 +1,9 @@
+export const GET_REVIEW_TOTAL = 'GET_REVIEW_TOTAL';
+export const GET_REVIEWS = 'GET_REVIEWS';
+export const GET_NEXT_REVIEWS = 'GET_NEXT_REVIEWS';
+export const ADD_PRODUCT_REVIEW = 'ADD_PRODUCT_REVIEW';
+export const CLEAR_ADD_PRODUCT_REVIEW = 'CLEAR_ADD_PRODUCT_REVIEW';
+export const GET_VERIFIED_PURCHASE_INFO = 'GET_VERIFIED_PURCHASE_INFO';
+
+/* Store reducer key */
+export const REVIEWS = 'reviews';

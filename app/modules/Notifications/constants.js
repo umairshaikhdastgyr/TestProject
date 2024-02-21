@@ -1,0 +1,9 @@
+export const SET_TOKEN_DATA = 'SET_TOKEN_DATA';
+export const GET_TOKEN_DATA = 'GET_TOKEN_DATA';
+export const GET_NOTIFICATIONS = 'GET_NOTIFICATIONS';
+export const SET_NOTIFICATIONS = 'SET_NOTIFICATIONS';
+export const CLEAR_NOTIFICATIONS = 'CLEAR_NOTIFICATIONS';
+export const DELETE_TOKEN = 'DELETE_TOKEN';
+
+/* Store Key */
+export const NOTIFICATION = 'notification';
